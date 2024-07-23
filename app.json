@@ -1,12 +1,13 @@
 {
   "expo": {
     "name": "sintereceros-app",
-    "slug": "sintereceros-app",
+    "slug": "sin-terceros",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "owner": "sinterceros",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ab53a5e9-5df4-4d88-a947-c22a317b0af6"
+      }
     }
   }
 }
